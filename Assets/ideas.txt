@@ -1,0 +1,26 @@
+You are a monster in a dungeon trying to scare/kill people before they reach the exit
+
+The dungeon will be randomly generated
+
+Each level the ammount of people will raise 
+
+There will be 3 classes:
+	1) Tank - big-, loud-, slow-, strong+ (First Class)
+	2) Hunter - fast+, quite+, small+ (Unlocks Later)
+	3) 
+
+
+Goals:
+	
+Programming:
+	- Implement Random Dungeon Generation
+	- Implement Human AI Behaviour
+	- Implement Monster Controls
+	- Implement Monster Classes
+
+Art:
+	- Design Player Model
+	- Animate Player Model
+	- Texture Player Model
+	- Texture Dungeon
+	- Light Dungeon
