@@ -13,7 +13,6 @@ There will be 3 classes:
 Goals:
 	
 Programming:
-	- Implement Random Dungeon Generation
 	- Implement Human AI Behaviour
 	- Implement Monster Controls
 	- Implement Monster Classes
@@ -24,3 +23,4 @@ Art:
 	- Texture Player Model
 	- Texture Dungeon
 	- Light Dungeon
+	- Design Dungeon
