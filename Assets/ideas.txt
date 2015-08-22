@@ -13,14 +13,14 @@ There will be 3 classes:
 Goals:
 	
 Programming:
-	- Implement Human AI Behaviour
-	- Implement Monster Controls
-	- Implement Monster Classes
+	- Implement Human AI Behaviour Done: (Pathfinding, Damage Detection, Speed Change On Hit) TO-DO: (Death, Speed Change On Monster Detection)
+	- Implement Monster Controls DONE(Keyboard Movement, Bat Hits) ToDo:(Monster Vision?)
+	- Implement Monster Classes HIGHLY_UNLIKELY
 
 Art:
-	- Design Player Model
-	- Animate Player Model
-	- Texture Player Model
-	- Texture Dungeon
-	- Light Dungeon
-	- Design Dungeon
+	- Design Player Model (Add Textures, Add Misilanious Items like: hat, belt, jacket)
+	- Animate Player Model (Placeholder animations, require polish)
+	- Texture Player Model ()
+	- Texture Dungeon ()
+	- Light Dungeon ()
+	- Design Dungeon (Design Ready, Decorations Needed)
