@@ -13,6 +13,9 @@ public class PlayerWeapon : MonoBehaviour
 	public float range = 50;
 
 	private RaycastHit rayHit;
+
+	public GameObject monsterVision;
+
 	void Start () 
 	{
 		passedTime = hitSpeed;
@@ -20,16 +23,6 @@ public class PlayerWeapon : MonoBehaviour
 	
 	void Update ()
 	{
-		//if (Input.GetButtonDown("Fire1")) 
-		//{
-		//	Debug.Log("Atta");
-		//	batAnim.SetBool("Attack", true);
-		//}
-		//else
-		//{
-		//	batAnim.SetBool("Attack", false);
-		//}
-
 		passedTime += Time.deltaTime;
 
 		if (Input.GetButton("Fire1") && passedTime >= hitSpeed)
@@ -54,6 +47,15 @@ public class PlayerWeapon : MonoBehaviour
 			passedTime = 0;
 		}
 
-		//batAnim.SetBool("Attack", Input.GetButton("Fire1"));
+		if (Input.GetButton("Fire2") && !monsterVision.activeSelf)
+		{
+			monsterVision.SetActive(true); 
+			this.GetComponent<Camera>().cullingMask ^= (1<<9);
+		}
+		else if (!Input.GetButton("Fire2") && monsterVision.activeSelf)
+		{
+			monsterVision.SetActive(false); 
+			this.GetComponent<Camera>().cullingMask ^= (1<<9);
+		}
 	}
 }

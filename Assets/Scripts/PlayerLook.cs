@@ -24,8 +24,8 @@ public class PlayerLook:MonoBehaviour
 
     void Update()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
 
         var targetOrient = Quaternion.Euler(targetDir);
         var targetCharOrient = Quaternion.Euler(targetCharDir);
